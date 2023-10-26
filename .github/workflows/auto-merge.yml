@@ -2,12 +2,12 @@ name: Auto merge test
 
 on:
   schedule:
-    - cron: "20 5 * * 0-4"
+    - cron: "35 5 * * 0-4"
 
 jobs:
   auto-merge-main-to-deploy:
-    environment:
-      name: review
+    # environment:
+    #   name: review
     runs-on: ubuntu-latest
 
     steps:
