@@ -6,8 +6,8 @@ on:
 
 jobs:
   auto-merge-main-to-deploy:
-    # environment:
-    #   name: review
+    environment:
+      name: review
     runs-on: ubuntu-latest
 
     steps:
