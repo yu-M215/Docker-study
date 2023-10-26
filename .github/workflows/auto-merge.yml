@@ -2,7 +2,7 @@ name: Auto merge test
 
 on:
   schedule:
-    - cron: "35 5 * * 0-4"
+    - cron: "50 5 * * 0-4"
 
 jobs:
   auto-merge-main-to-deploy:
